@@ -60,13 +60,10 @@
 //Smartphones
 @include mediaSm {
     main {
-        align-items: center;
-        text-align: center;
-
         .lg-heading {
             line-height: 1;
             margin-bottom: 1rem;
-            font-size: 19px;
+            font-size: 20px;
         }
     }
     main#home h1 {
