@@ -4,6 +4,9 @@ const menu = document.querySelector('.menu');
 const menuNav = document.querySelector('.menu-nav');
 const menuBranding = document.querySelector('.menu-branding');
 const navItems = document.querySelectorAll('.nav-item');
+const switchMode = document.querySelector('.switch');
+const body = document.querySelector('body');
+const div = document.querySelector('.boxes');
 
 // Set intial state of menu
 let showMenu = false;
@@ -30,4 +33,10 @@ function toggleMenu() {
         //set menu state
         showMenu = false;
     }
+}
+
+div.addEventListener('click', sendMail);
+
+function sendMail() {
+    window.location = "mailto:icnwakanma@gmail.com";
 }
